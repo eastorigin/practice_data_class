@@ -8,18 +8,18 @@ public class AnswerSeller {
 	/**
 	 * 재고
 	 */
-	int stock;
+	private int stock;
 	
 	/**
 	 * 상품의 판매 금액
 	 */
 	
-	final int PRICE;
+	public final int PRICE;
 	
 	/**
 	 * 금고
 	 */
-	int money;
+	private int money;
 	
 	public AnswerSeller(int stock, int price, int money) {
 		this.stock = stock;

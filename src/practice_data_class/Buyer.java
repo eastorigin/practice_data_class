@@ -5,11 +5,15 @@ package practice_data_class;
  */
 public class Buyer {
 
-	int itemCount; // 인스턴스 멤버변수는 기본값을 가지고 있다 (숫자 => 0, 불린 => false, char => 0) / 매개변수는 불가능
-	int money;
+	private int itemCount; // 인스턴스 멤버변수는 기본값을 가지고 있다 (숫자 => 0, 불린 => false, char => 0) / 매개변수는 불가능
+	private int money;
 	
 	public Buyer(int money) {
 		this.money = money;
+	}
+	
+	public int getMoney() {
+		return money;
 	}
 	
 	/**

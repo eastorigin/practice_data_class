@@ -8,7 +8,7 @@ public class MarketPlace {
 		Buyer me = new Buyer(1_000_000);
 		
 		int orderCount = 2;
-		if(orderCount * shoeMarker.PRICE <= me.money) {
+		if(orderCount * shoeMarker.PRICE <= me.getMoney()) {
 			int orderQuantity = shoeMarker.sell(orderCount);
 			
 			me.buy(orderQuantity, orderQuantity * shoeMarker.PRICE);

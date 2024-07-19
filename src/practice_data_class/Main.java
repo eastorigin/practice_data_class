@@ -21,9 +21,9 @@ public class Main {
 		// 객체의 메모리 정보를 출력한다
 		// @44f75083 ==> Hash Data ==> 객체가 가지고 있는 데이터를 숫자로 바꾼 값
 		System.out.println(mySecondBeverage); // practice_data_class.Beverage@44f75083
-		System.out.println("구매한 상품의 이름: " + mySecondBeverage.name);
-		System.out.println("구매한 상품의 총 가격: " + mySecondBeverage.price);
-		System.out.println("구매한 상품의 개수: " + mySecondBeverage.stock);
+		System.out.println("구매한 상품의 이름: " + mySecondBeverage.getName());
+		System.out.println("구매한 상품의 총 가격: " + mySecondBeverage.getPrice());
+		System.out.println("구매한 상품의 개수: " + mySecondBeverage.getStock());
 		
 		beverageMachine.outPutStock();
 		
